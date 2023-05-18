@@ -1,0 +1,15 @@
+app:
+  name: poi-map-app
+  namespace: hpgrahsl
+  cluster: .apps.summit23rock.n26o.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus1/hpgrahsl-frontend
+  org: Summit23Janus1
+  name: hpgrahsl-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: hpgrahsl/poi-map-app
+  tag: latest
